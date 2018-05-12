@@ -1,0 +1,37 @@
+21:35:56:196	31d0	
+21:35:56:202	31d0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:35:56:207	31d0	บ              Claymore CryptoNote CPU Miner v3.9                บ
+21:35:56:211	31d0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:35:56:418	31d0	XMR: 1 pool is specified
+21:35:56:423	31d0	Main pool is inf8.pool.minergate.com:45750
+21:35:56:428	31d0	64-bit version
+21:35:56:433	31d0	CPU supports AES-NI - faster mining!
+21:35:56:439	31d0	Logical CPU cores: 4
+21:35:56:445	31d0	Number of threads: Autoselection...
+21:35:56:450	31d0	Using 3 threads
+21:35:56:465	31d0	scfg: 0
+21:36:11:474	31d0	No AMD cards in the list, ADL library will not be used.
+21:36:11:478	31d0	1 pool specified.
+21:36:11:483	31d0	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:36:11:488	31d0	Press "s" key for statistics.
+21:36:11:604	385c	DevFee: Stratum - connecting to 'cryptonight.usa.nicehash.com' <169.62.79.78> port 3355 (unsecure)
+21:36:11:767	200c	Stratum - connecting to 'inf8.pool.minergate.com' <176.9.47.243> port 45750 (unsecure)
+21:36:11:920	385c	send: {"method": "login", "params": {"login": "1LmMNkiEvjapn5PRY8A9wypcWJveRrRGWr", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+21:36:11:928	385c	Stratum - Connected (unsecure)
+21:36:11:943	200c	send: {"method": "login", "params": {"login": "saeidlavasani@gmail.com", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+21:36:11:949	200c	Stratum - Connected (unsecure)
+21:36:11:953	200c	New connection: reset total hashes counters
+21:36:12:132	200c	got 362 bytes
+21:36:12:136	200c	buf: {"jsonrpc":"2.0","result":{"job":{"blob":"0100a9c4bbd605895d4c53495d32746889a28b73c026d20f1eb8aae4ce83b90077e75275ea8f24000000005798c6c207ed931a6d2c45376d00c417fa32a6430a655939bbbbf1a2596f922901","target":"e4a63d00","job_id":"11e7e582-653c-45f3-8723-f74350d0f666","time_to_live":5},"status":"OK","id":"633d09ce-17e1-4467-b283-f08516680b56"},"id":1,"error":null}
+
+21:36:12:142	200c	parse packet: 362
+21:36:12:148	200c	new buf size: 0
+21:36:12:153	200c	Pool Diff 1063
+21:36:12:269	385c	got 304 bytes
+21:36:12:275	385c	buf: {"jsonrpc":"2.0","id":1,"error":null,"result":{"id":"131653034243625","status":"OK","job":{"job_id":"000000346982b903","blob":"0101b9c4bbd605a9a185485c1a2433e63cb7ae6210dc94d1ad53d1292e04ef5070e762e9e1b2db000000c10aac9f4eee9abd1840d276ca46e60886c9d82ef52471be1e0f8e53ee49bc7cc101","target":"e2530000"}}}
+
+21:36:12:281	385c	parse packet: 304
+21:36:12:287	385c	new buf size: 0
+21:36:12:293	385c	DevFee: Pool Diff 200008
